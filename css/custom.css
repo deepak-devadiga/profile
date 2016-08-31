@@ -640,7 +640,7 @@ width: 60px;
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	#top-titles{
-		left: 18%;
+		left: 20%;
 		top: 40%;
 	}
 	#top-titles h1{
@@ -655,13 +655,14 @@ width: 60px;
 		position: inherit;
 	}
 	.page1 span{
-		margin-top:175%;
+		margin-top:190%;
 		position: inherit;
+		margin-left
 	}
 	
 	.contactTab{
 		left:20%;
-		top:125%;
+		top:130%;
 		font-size: 1.7em
 	}
 	.contactTab div{
@@ -671,8 +672,8 @@ width: 60px;
 		padding:15px;
 	}
 	.abtMe{
-		left: 15%;
-		top: 155%;
+		left: 20%;
+		top: 160%;
 		font-size: 1.7em;
 		line-height:40px;
 	}
@@ -687,8 +688,8 @@ width: 60px;
 	}
 	#chip{
 	position: absolute;
-  left: 42%;
-  top: 108%;
+  left: 45%;
+  top: 114%;
   z-index: 1;
     display: inline-block;
     margin: 0 auto;
@@ -703,31 +704,39 @@ width: 60px;
 	text-align:left;
 }
 .eduTab{
-	top:220%
+	top:235%
 }
 .eduTab .row{
 		padding:10px;
 }
 .eduTab1{
-	top:242%
+	top:257%
 }
 .eduTab1 .row{
 		padding:10px;
 }	
 .eduTab2{
-	top:265%
+	top:280%
 }
 .eduTab2 .row{
 		padding:10px;
 }
 .page2 span{
-		margin-top:175%;
+		margin-top:190%;
+		position: inherit;
+}
+.page3 span{
+		margin-top:190%;
+		position: inherit;
+}
+.page4 span{
+		margin-top:190%;
 		position: inherit;
 }
 #chip1{
 	position: absolute;
-  left: 42%;
-  top: 208%;
+  left: 45%;
+  top: 220%;
   z-index: 1;
     display: inline-block;
     margin: 0 auto;
@@ -740,8 +749,8 @@ width: 60px;
 }
 #chip2{
 	position: absolute;
-  left: 42%;
-  top: 308%;
+  left: 45%;
+  top: 326%;
   z-index: 1;
     display: inline-block;
     margin: 0 auto;
@@ -754,8 +763,8 @@ width: 60px;
 }
 #chip3{
 	position: absolute;
-  left: 42%;
-  top: 408%;
+  left: 45%;
+  top: 432%;
   z-index: 1;
     display: inline-block;
     margin: 0 auto;
@@ -765,6 +774,13 @@ width: 60px;
   transition: .5s ease-in-out;
   cursor:default;
   
+}
+.header-banner, .row1, .row2, .row3, .row4{
+	height: 106vh;
+    width: 106%;
+}
+.foot{
+	width:106%
 }
 }
 

@@ -105,7 +105,6 @@ body{
 	filter: grayscale(0) blur(0);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
 }
 
 #top-titles{
@@ -152,7 +151,7 @@ box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
     font-size: 1.2em;
 	display: block;
 	position: absolute;
-  left: 45%;
+  left: 40%;
   top: 118%;
   z-index: 1;
   line-height:25px;
@@ -639,7 +638,135 @@ width: 60px;
 }
 
 
-
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	#top-titles{
+		left: 18%;
+		top: 40%;
+	}
+	#top-titles h1{
+		font-size: 6rem;
+	}
+	#top-titles > div > h2{
+		font-size: 2.96rem;
+		letter-spacing: 3px;
+	}
+	.start{
+		top:90%;
+		position: inherit;
+	}
+	.page1 span{
+		margin-top:175%;
+		position: inherit;
+	}
+	
+	.contactTab{
+		left:20%;
+		top:125%;
+		font-size: 1.7em
+	}
+	.contactTab div{
+		text-align:left;
+	}
+	.contactTab .row{
+		padding:15px;
+	}
+	.abtMe{
+		left: 15%;
+		top: 155%;
+		font-size: 1.7em;
+		line-height:40px;
+	}
+	.div1, .div2, .div3, .div4{
+		margin-top:200px;
+	}
+	.contactTab .row div:nth-child(1){
+		width:100%
+	}
+	.contactTab .row div:nth-child(2){
+		width:100%
+	}
+	#chip{
+	position: absolute;
+  left: 42%;
+  top: 108%;
+  z-index: 1;
+    display: inline-block;
+    margin: 0 auto;
+	height:130px;
+	width:130px;
+  font-size:15px;
+  transition: .5s ease-in-out;
+  cursor:default;
+  
+}
+.eduTab div, .eduTab1 div, .eduTab2 div, .eduTab3 div{
+	text-align:left;
+}
+.eduTab{
+	top:220%
+}
+.eduTab .row{
+		padding:10px;
+}
+.eduTab1{
+	top:242%
+}
+.eduTab1 .row{
+		padding:10px;
+}	
+.eduTab2{
+	top:265%
+}
+.eduTab2 .row{
+		padding:10px;
+}
+.page2 span{
+		margin-top:175%;
+		position: inherit;
+}
+#chip1{
+	position: absolute;
+  left: 42%;
+  top: 208%;
+  z-index: 1;
+    display: inline-block;
+    margin: 0 auto;
+	height:130px;
+	width:130px;
+  font-size:15px;
+  transition: .5s ease-in-out;
+  cursor:default;
+  
+}
+#chip2{
+	position: absolute;
+  left: 42%;
+  top: 308%;
+  z-index: 1;
+    display: inline-block;
+    margin: 0 auto;
+	height:130px;
+	width:130px;
+  font-size:15px;
+  transition: .5s ease-in-out;
+  cursor:default;
+  
+}
+#chip3{
+	position: absolute;
+  left: 42%;
+  top: 408%;
+  z-index: 1;
+    display: inline-block;
+    margin: 0 auto;
+	height:130px;
+	width:130px;
+  font-size:15px;
+  transition: .5s ease-in-out;
+  cursor:default;
+  
+}
+}
 
 
 

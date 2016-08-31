@@ -78,10 +78,12 @@ body{
 	filter: sepia(100%);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+	cursor:default;
 }
 .row1:hover{
 	-webkit-filter: sepia(0);
 	filter: sepia(0);
+	transition: .3s ease-in-out;
 }
 .row2{
 	background-image:url('../images/row2.jpg');
@@ -95,11 +97,14 @@ body{
 	opacity: 0.9;
 	-webkit-filter: grayscale(100%) blur(1px);
 	filter: grayscale(100%) blur(1px);
+	cursor:default;
+	transition: .3s ease-in-out;
 }
 .row2:hover{
 	-webkit-filter: grayscale(0) blur(0);
 	filter: grayscale(0) blur(0);
 	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
 
@@ -116,8 +121,8 @@ body{
 }
 #top-titles > h1{
 	font-size: 4rem;
-    font-weight: 500;
-    border: 3px solid #fff;
+    font-weight: 700;
+    border: 5px solid #fff;
     text-transform: uppercase;
     padding: 30px;
     display: inline-block;
@@ -153,6 +158,7 @@ box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
   line-height:25px;
   border-left: 5px solid white;
   padding:0px;
+  
 }
 
 .eduTab{
@@ -380,10 +386,13 @@ box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
 	opacity: 0.9;
 	-webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+	cursor:default;
+	transition: .3s ease-in-out;
 }
 .row3:hover{
 	-webkit-filter: sepia(0);
 	filter: sepia(0);
+	transition: .3s ease-in-out;
 }
 .row4{
 	background-image:url('../images/row4.jpg');
@@ -397,8 +406,14 @@ box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
 	opacity: 0.9;
 	-webkit-filter: grayscale(50%);
     filter: grayscale(50%);
+	cursor:default;
+	transition: .3s ease-in-out;
 }
-
+.row4:hover{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	transition: .3s ease-in-out;
+}
 
 
 

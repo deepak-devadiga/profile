@@ -638,7 +638,7 @@ width: 60px;
 }
 
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 600px) {
 	#top-titles{
 		left: 20%;
 		top: 40%;
@@ -655,7 +655,7 @@ width: 60px;
 		position: inherit;
 	}
 	.page1 span{
-		margin-top:186%;
+		margin-top:180%;
 		position: inherit;
 		margin-left
 	}
@@ -689,7 +689,7 @@ width: 60px;
 	#chip{
 	position: absolute;
   left: 45%;
-  top: 114%;
+  top: 115%;
   z-index: 1;
     display: inline-block;
     margin: 0 auto;
@@ -704,39 +704,42 @@ width: 60px;
 	text-align:left;
 }
 .eduTab{
-	top:235%
+	top:235%;
+	font-size:1.4em;
 }
 .eduTab .row{
 		padding:10px;
 }
 .eduTab1{
-	top:257%
+	top:257%;
+	font-size:1.4em;
 }
 .eduTab1 .row{
 		padding:10px;
 }	
 .eduTab2{
-	top:280%
+	top:280%;
+	font-size:1.4em;
 }
 .eduTab2 .row{
 		padding:10px;
 }
 .page2 span{
-		margin-top:186%;
+		margin-top:180%;
 		position: inherit;
 }
 .page3 span{
-		margin-top:186%;
+		margin-top:180%;
 		position: inherit;
 }
 .page4 span{
-		margin-top:186%;
+		margin-top:180%;
 		position: inherit;
 }
 #chip1{
 	position: absolute;
   left: 45%;
-  top: 220%;
+  top: 222%;
   z-index: 1;
     display: inline-block;
     margin: 0 auto;
@@ -750,7 +753,7 @@ width: 60px;
 #chip2{
 	position: absolute;
   left: 45%;
-  top: 326%;
+  top: 329%;
   z-index: 1;
     display: inline-block;
     margin: 0 auto;
@@ -764,7 +767,7 @@ width: 60px;
 #chip3{
 	position: absolute;
   left: 45%;
-  top: 432%;
+  top: 436%;
   z-index: 1;
     display: inline-block;
     margin: 0 auto;
@@ -776,8 +779,8 @@ width: 60px;
   
 }
 .header-banner, .row1, .row2, .row3, .row4{
-	height: 106vh;
-    width: 106%;
+	height: 107vh;
+    width: 107%;
 }
 .foot{
 	width:106%
